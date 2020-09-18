@@ -1,8 +1,8 @@
 body{
 	margin: 0;
-	font-family: Helvetica;
+	font-family: Georgia, serif;
 	font-size: 18px;
-	background-color: aqua
+	background-color: #40A8C4
 
 }
 
@@ -11,7 +11,7 @@ header{
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: rgb(79, 87, 88);
-	color: aqua;
+	color: #40A8C4;
 	letter-spacing: 1.2px;
 }
 
@@ -63,9 +63,8 @@ input[type="text"], input[type="email"], input[type="number"]{
 	border: none;
 	border: 1px solid #516185;
 }
-
+ 
 p{
-	word-wrap: break-word;
 	margin-top: 35px;
 	margin-bottom: 6px;
 }
@@ -119,18 +118,6 @@ label{
 	margin-bottom: 3px;
 }
 
-@media screen and (max-width: 550px) {
-  #fname-email-div{	
-	padding: 20px;
-  }
-
-  input[type="text"], input[type="email"], input[type="number"]{
-  	margin-top: 5px;
-  	width: 100%;
-	
-}
-
   textarea{
   	width: 100%;
   }
-}

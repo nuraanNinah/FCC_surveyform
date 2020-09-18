@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreeCodeCamp Survey Form Project</title>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
         <h1 id="title">Survey Form</h1>
         <p id="description">Fill in the bellow details and answer the few questions</p>
@@ -22,36 +22,36 @@
 
 <form id="survey-form">
 
-<label class="label" for="name" id="name-label">*Name:</label>
+<label class="label" for="name" id="name-label">Name:</label>
 <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
 
-<label class="label" for="email" id="email-label">*Email:</label>
+<label class="label" for="email" id="email-label">Email:</label>
 <input type="email" name="email" id="email" placeholder="Enter your Email" required><br>
 
-<label class="label" for="age" id="number-label">*Age:</label>
- <input type="number" name="age" id="number" min="13" max="100" placeholder="Enter your age"  required><br>
+<label class="label" for="age" id="number-label">Age:</label>
+ <input type="number" name="age" id="number" min="13" max="50" placeholder="Enter your age"  required><br>
 
   <div>
 
-   <p class="first-question-para">Which coding language do you think i used most?</p>
+   <p class="first-question-para">How do you feel about the chosen colours</p>
 
-   <input type="radio" name="language" value="lang-html5" id="lang-html5"> <label for="lang-html5">HTML5</label><br>
+   <input type="radio" name="multiple-choice" value="multiple-choice" id="multiple-choice"> <label for="multiple-choice">Satisfied</label><br>
 
-   <input type="radio" name="language" value="lang-css" id="lang-css"> <label for="lang-css">CSS</label><br>
+   <input type="radio" name="multiple-choice" value="multiple-choice" id="multiple-choice"> <label for="multiple-choice">dissatisfied</label><br>
 
- <input type="radio" name="language" value="lang-javascript" id="lang-javascript"> <label for="lang-javascript"> Javascript</label><br>
+ <input type="radio" name="multiple-choice" value="multiple-choice" id="multiple-choice"> <label for="multiple-choice">neither</label><br>
 
   </div>
 
    <div>
 
-   <p>How do you feel about the chosen colours</p>
+   <p>Which coding language do you think I used most?</p>
 
-    <input type="checkbox" name="satisfied" value="satisfied" id="satisfied"> <label for="satisfied">satisfied</label><br>
+    <input type="checkbox" name="language" value="lang-html5" id="lang-html5"> <label for="lang-html5">HTML5</label><br>
 
-      <input type="checkbox" name="dissatisfied" value="dissatisfied" id="dissatisfied"> <label for="dissatisfied">dissatisfied</label><br>
+      <input type="checkbox" name="language" value="lang-css" id="lang-css"> <label for="lang-css">CSS</label><br>
 
-  <input type="checkbox" name="neither" value="neither" id="neither"> <label for="neither">Neither</label><br>
+  <input type="checkbox" name="language" value="lang-javascript" id="lang-javascript"> <label for="lang-javascript">JavaScript</label><br>
 
     </div>
 
@@ -77,13 +77,13 @@
   </div>
 
   <div>
-    <p>Whould you concider using my survey format?</p>
+    <p>Whould you consider using my survey form?</p>
 
    <input type="radio" name="decisionmaking" value="yes" id="like-yes"> <label for="like-yes">Yes</label><br>
  <input type="radio" name="decisionmaking" value="no" id="like-no"> <label for="like-no">No</label><br>
 
 
-  <p>Any feedback,suggestions or criticism welcome</p>
+  <p>Feedback is welcome</p>
 
   <textarea id="Feedback" name="Feedback" rows="6" placeholder="Feedback here..."></textarea>
 
